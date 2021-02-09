@@ -2,7 +2,7 @@ import cv2
 
 
 # ---------------------text on image----------------
-img = cv2.imread('C:\\Users\\Delzad\\PycharmProjects\\openCvTutorials\\hackathon.png', 1)
+img = cv2.imread('C:\\fakepath\\hackathon.png', 1)
 
 
 # params:
