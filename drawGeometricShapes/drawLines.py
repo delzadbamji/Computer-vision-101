@@ -2,7 +2,7 @@ import cv2
 
 
 # ---------------------draw line----------------
-img = cv2.imread('C:\\Users\\Delzad\\PycharmProjects\\openCvTutorials\\hackathon.png', 1)
+img = cv2.imread('C:\\fakepath\\hackathon.png', 1)
 
 # param:
 # - image object
