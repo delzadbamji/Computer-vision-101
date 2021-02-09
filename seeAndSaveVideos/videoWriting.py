@@ -12,7 +12,7 @@ fourcc = cv2.VideoWriter_fourcc(*'XVID')
 # - fourcc code/ 4 byte code to specify video codec,
 # - no. frames per sec,
 # - size of output frame in a tuple
-out = cv2.VideoWriter('C:\\Users\\Delzad\\PycharmProjects\\openCvTutorials\\out.avi', fourcc, 20.0, (640, 480))
+out = cv2.VideoWriter('C:\\fakepath\\out.avi', fourcc, 20.0, (640, 480))
 
 while cap.isOpened():
     ret, frame = cap.read()
